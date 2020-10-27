@@ -1,0 +1,16 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "My first todoList app",
+  "main": "app.js",
+  "author": "Jorge Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.10",
+    "nodemon": "^2.0.6"
+  }
+}
