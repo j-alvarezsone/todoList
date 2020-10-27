@@ -17,8 +17,8 @@ app.use(express.static('public'));
 
 // URL & Options
 const DB = 'todolistDB';
-const password = '<your-password>';
-const url = `mongodb+srv://<your-admin>:${password}@cluster0.pd5xs.mongodb.net/${DB}?retryWrites=true&w=majority`;
+const password = 'Terezateamo08';
+const url = `mongodb+srv://admin-jorge:${password}@cluster0.pd5xs.mongodb.net/${DB}?retryWrites=true&w=majority`;
 const options = {
   useUnifiedTopology: true,
   useNewUrlParser: true,
@@ -152,7 +152,7 @@ app.post('/delete', (req, res) => {
   }
 });
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
