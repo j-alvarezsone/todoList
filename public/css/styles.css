@@ -64,7 +64,6 @@ button {
   background-color: #283c63;
   color: #fff;
   font-size: 30px;
-  padding-bottom: 6px;
   border-width: 0;
 }
 
@@ -92,4 +91,19 @@ input[type='text']:focus {
 footer {
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  button {
+    min-height: 50px;
+    width: 22%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  button {
+    min-height: 50px;
+    width: 22%;
+    font-size: 20px;
+  }
 }
