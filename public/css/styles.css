@@ -97,7 +97,16 @@ footer {
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-  
+  button {
+    min-height: 50px;
+    max-width: 45px;
+    width: 13%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 375px) and (min-width: 320px) {
@@ -114,7 +123,7 @@ footer {
 @media screen and (max-width: 380px) {
   button {
     width: 20% !important;
-    font-size: 22px !important;
+    font-size: 25px !important;
   }
 }
 @media screen and (max-width: 767px) {
